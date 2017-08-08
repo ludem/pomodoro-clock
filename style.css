@@ -1,0 +1,78 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Ubuntu', sans-serif;
+  background: floralwhite;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.title {
+    font-family: 'Lobster', sans-serif;
+    font-size: 3rem;
+}
+.flex {
+  display: flex;
+  justify-content: center;
+}
+
+#pomodoro {
+  width: 10rem;
+  height: 10rem;
+  border-radius: 50%;
+  border: 2px solid black;
+
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+#pomodoroText {
+  position: absolute;
+  font-weight: bold;
+  top: 5px;
+  font-size: 0.7rem;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+p.counter {
+  margin: 0.5rem;
+  font-size: 2rem;
+}
+
+#start:hover {
+  opacity: 0.8;
+}
+
+.container {
+  margin: 0.5rem;
+}
+
+.controllerTitle {
+    font-size:0.8rem;
+}
+
+  .info h1 {
+			font-size: 0.7rem;
+			color: black;
+		}
+
+		.info {
+            font-family: 'Ubuntu', sans-serif;
+			display: flex;
+			justify-content: flex-start;
+		}
+        .info a{
+            color: cadetblue;
+        }

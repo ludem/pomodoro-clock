@@ -1,0 +1,42 @@
+<html>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu|Lobster" rel="stylesheet">
+</head>
+
+<body>
+    <div class="title">Pomodoro Clock</div> 
+    <div class="controllers flex">
+        <div class="container">
+            <div class="controllerTitle">SESSION LENGTH</div>
+            <div id="sessionControllers" class="flex">
+                <input id="sessionMinus" class="pointer" type="button" value="-">
+                <p id="session" class="counter">25</p>
+                <input id="sessionPlus" class="pointer" type="button" value="+">
+            </div>
+        </div>
+        <div class="container">
+            <div class="controllerTitle">BREAK LENGTH</div>
+            <div id="breakControllers" class="flex">
+                <input id="breakMinus" class="pointer" type="button" value="-">
+                <p id="break" class="counter">5</p>
+                <input id="breakPlus" class="pointer" type="button" value="+">
+            </div>
+        </div>
+    </div>
+
+    <div id="pomodoro">
+        <p id="pomodoroText">START!</p>
+        <div id="start" class="pointer fa fa-play fa-2x"></div>
+    </div>
+    <div class=info>
+		<h1>"JS Calculator" by <a href="https://codepen.io/ludem/" target="_tab">ludem</a></h1>
+	</div>
+
+
+</body>
+<script src="pomodoro.js"></script>
+
+</html>
