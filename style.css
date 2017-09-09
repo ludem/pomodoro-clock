@@ -1,8 +1,18 @@
+html {
+  font-size: 2vw;
+}
+
+@media screen and (orientation: portrait) {
+  html {
+    font-size: 2vh;
+  }
+}
+
 html,
 body {
   margin: 0;
   padding: 0;
-  font-family: 'Ubuntu', sans-serif;
+  font-family: "Ubuntu", sans-serif;
   background: floralwhite;
 }
 
@@ -14,8 +24,8 @@ body {
 }
 
 .title {
-    font-family: 'Lobster', sans-serif;
-    font-size: 3rem;
+  font-family: "Lobster", sans-serif;
+  font-size: 3rem;
 }
 .flex {
   display: flex;
@@ -23,10 +33,11 @@ body {
 }
 
 #pomodoro {
-  width: 10rem;
-  height: 10rem;
+  width: 15rem;
+  height: 15rem;
   border-radius: 50%;
   border: 2px solid black;
+  margin: 0.5rem;
 
   position: relative;
   display: flex;
@@ -39,7 +50,7 @@ body {
   position: absolute;
   font-weight: bold;
   top: 5px;
-  font-size: 0.7rem;
+  font-size: 1.5rem;
 }
 
 .pointer {
@@ -60,19 +71,23 @@ p.counter {
 }
 
 .controllerTitle {
-    font-size:0.8rem;
+  font-size: 1rem;
 }
 
-  .info h1 {
-			font-size: 0.7rem;
-			color: black;
-		}
+.info h1 {
+  font-size: 1rem;
+  color: black;
+}
 
-		.info {
-            font-family: 'Ubuntu', sans-serif;
-			display: flex;
-			justify-content: flex-start;
-		}
-        .info a{
-            color: cadetblue;
-        }
+.container input {
+  background: bisque;
+}
+
+.info {
+  font-family: "Ubuntu", sans-serif;
+  display: flex;
+  justify-content: flex-start;
+}
+.info a {
+  color: cadetblue;
+}
