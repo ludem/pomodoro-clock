@@ -14,6 +14,7 @@ body {
   padding: 0;
   font-family: "Ubuntu", sans-serif;
   background: floralwhite;
+  height: 100%;
 }
 
 body {
@@ -33,8 +34,8 @@ body {
 }
 
 #pomodoro {
-  width: 15rem;
-  height: 15rem;
+  width: 12rem;
+  height: 12rem;
   border-radius: 50%;
   border: 2px solid black;
   margin: 0.5rem;
